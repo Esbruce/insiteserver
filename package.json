@@ -1,0 +1,25 @@
+{
+  "name": "ext_server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx scripts/dev.ts",
+    "build": "tsc --noEmit",
+    "lint": "echo No lint configured"
+  },
+  "dependencies": {
+    "dotenv": "17.2.1",
+    "openai": "^4.56.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "@vercel/node": "^3.2.22",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4",
+    "vercel": "^33.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
